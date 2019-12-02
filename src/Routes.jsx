@@ -20,46 +20,46 @@ const Home = () => (
     <p>
       Rakenduste Programmeerimise soojendusülesanded leiad menüüst
     </p>
-    <img width={300} src={'/static/images/brain.jpg'}/>
+    <img width={300} src={"/static/images/brain.jpg"}/>
   </div>
 );
 
 const PATHS = [
   {
-    path: '/', component: Home, text: 'Home'
+    path: "/", component: Home, text: "Home"
   },
   {
-    path: '/test/1', component: Test1, text: 'Ülesanne 1 - easy'
+    path: "/test/1", component: Test1, text: "Ülesanne 1 - easy"
   },
   {
-    path: '/test/2', component: Test2, text: 'Ülesanne 2 - easy'
+    path: "/test/2", component: Test2, text: "Ülesanne 2 - easy"
   },
   {
-    path: '/test/3', component: Test3, text: 'Ülesanne 3 - medium'
+    path: "/test/3", component: Test3, text: "Ülesanne 3 - medium"
   },
   {
-    path: '/test/4', component: Test4, text: 'Ülesanne 4 - medium'
+    path: "/test/4", component: Test4, text: "Ülesanne 4 - medium"
   },
   {
-    path: '/test/5', component: Test5, text: 'Ülesanne 5 - Sapiens'
+    path: "/test/5", component: Test5, text: "Ülesanne 5 - Sapiens"
   },
   {
-    path: '/test/6', component: Test6, text: 'Ülesanne 6 - Darwin'
+    path: "/test/6", component: Test6, text: "Ülesanne 6 - Darwin"
   },
   {
-    path: '/test/7', component: Test7, text: 'Ülesanne 7 - Human'
+    path: "/test/7", component: Test7, text: "Ülesanne 7 - Human"
   },
   {
-    path: '/test/8', component: Test8, text: 'Ülesanne 8 - IT student'
+    path: "/test/8", component: Test8, text: "Ülesanne 8 - IT student"
   },
   {
-    path: '/test/9', component: Test9, text: 'Ülesanne 9 - Elon Musk'
+    path: "/test/9", component: Test9, text: "Ülesanne 9 - Elon Musk"
   },
   {
-    path: '/test/10', component: Test10, text: 'Ülesanne 10 - Cybertruck'
+    path: "/test/10", component: Test10, text: "Ülesanne 10 - Cybertruck"
   },
   {
-    path: '/test/11', component: Test11, text: 'Ülesanne 11 - Jeff Bezos'
+    path: "/test/11", component: Test11, text: "Ülesanne 11 - Jeff Bezos"
   },
 ];
 

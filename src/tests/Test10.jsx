@@ -26,4 +26,4 @@ const Task = () => (
   </div>
 );
 
-const LINK = 'https://reactjs.org/docs/uncontrolled-components.html';
+const LINK = "https://reactjs.org/docs/uncontrolled-components.html";

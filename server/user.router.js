@@ -9,8 +9,18 @@ router.get("/", async (req, res)=>{
   res.send(xs);
 });
 
+//api/v1/users
+router.post("/", async (req,res)=>{
+  const filter={personalCode: req.body.personalCode};
+  const doc = req.body;
+  const options = {
+    upsert: true
+  };
+  const {n, nModified}=await User.updateOne(filter, doc, options)
 
-/** Add something here*/
+  console.log("created user")
+  res.send(200);
+})
 
 module.exports = router;
 

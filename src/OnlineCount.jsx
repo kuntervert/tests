@@ -1,6 +1,6 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import cx from 'classnames';
+import React from "react";
+import PropTypes from "prop-types";
+import cx from "classnames";
 
 const OnlineCount = ({children}) => {
   const [animate, setAnimate] = React.useState(false);
@@ -12,7 +12,7 @@ const OnlineCount = ({children}) => {
   }, [children]);
 
   return (
-    <div className={cx('onlineStatus',{animate})}>
+    <div className={cx("onlineStatus",{animate})}>
       Hetkel online <span>{children}</span>
     </div>
   );
